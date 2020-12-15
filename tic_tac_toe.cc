@@ -213,8 +213,8 @@ void tic_tac_toe::print_winner(int a[SIZE][SIZE]){
 
 int main(){
 
-    cout << "Game instrutions: This is a tic tac toe game. Player 1 uses the token '1'."<<"\n";
-    cout << "Player 2 uses the token '2'. Enter a row [1-3]  and column [1-3] you wish to occupy."<<"\n";
+    cout << "Game instructions: This is a tic tac toe game. Player 1 uses the token '1'."<<"\n";
+    cout << "Player 2 uses the token '2'. Enter a row [1-3]  and column [1-3] to occupy."<<"\n";
     cout << "example input (row 1 col 3)--> 1 3" << endl;
     bool play= true;
     bool solo= true;
